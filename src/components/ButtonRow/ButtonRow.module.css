@@ -1,2 +1,10 @@
 .buttonRow {
+  overflow: auto;
+  white-space: nowrap;
+
+  /* (24-2) give a little gap between the items and the box border */
+  margin-left: -22px;
+  margin-right: -22px;
+  margin-bottom: -22px;
+  padding: 22px;
 }
